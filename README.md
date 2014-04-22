@@ -1,7 +1,7 @@
-Danger Danger
+Danger-Danger
 ==========
 # Overview
-Danger Danger provides a way to scan Netflix projects for vulnerable third party dependencies.  You simply specify the projects you would like to scan, and danger-danger automatically retrieves those WAR files from artifactory and generates an html report for each project.  
+Danger-Danger provides a way to scan Netflix projects for vulnerable third party dependencies.  You simply specify the projects you would like to scan, and danger-danger automatically retrieves those WAR files from artifactory and generates an html report for each project.  
 
 This project leverages the [Depencency Checker](https://www.owasp.org/index.php/OWASP_Dependency_Check) OWASP project.  
 
@@ -25,7 +25,7 @@ Run the scanner:
 python danger-danger.py
 ```
 
-*Note* - On the first run the tool downloads the latest NIST [NVD database](https://nvd.nist.gov/).  This process takes roughly 20 minutes.  
+NOTE: On the first run the tool downloads the latest NIST [NVD database](https://nvd.nist.gov/).  This process takes roughly 20 minutes.  
 
 When the tool completes, reports for each project will be placed in the `reports` directory.  
 
